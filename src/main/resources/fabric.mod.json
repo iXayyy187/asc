@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "totempopchams",
+  "version": "${version}",
+  "name": "Totem Pop Chams",
+  "description": "Hinterlässt beim Totem-Pop eines Spielers eine leuchtende Geister-Kopie an dessen Position.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.totempopchams.TotemPopChamsClient"
+    ]
+  },
+  "mixins": [
+    "totempopchams.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
